@@ -1,0 +1,94 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+
+
+
+Adding this code will make images disappear as well as white space
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+body {
+  font-family: 'quicksand', sans-serif;
+}
+
+
+section {
+  padding-left: 55px;
+  padding-right: 55px;
+
+}
+
+#OtherWork {
+  padding: 100px;
+}
+
+#landing {
+  padding-top: 90px;
+  padding-bottom: 200px;
+}
+
+#about {
+  padding-top: 50px;
+}
+
+#social {
+  padding: 20px;
+}
+
+.navbar-brand {
+  padding-left: 40px;
+}
+
+.navbar-nav > li{
+  padding-left:15px;
+  padding-right:15px;
+  
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #cbcbcb;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: white;
+}
+  .arrow
+  {
+    position: relative;
+    bottom: -2rem;
+    left: 50%;
+    margin-left:-20px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .bounce {
+    animation: bounce 3s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+
+
+
+
